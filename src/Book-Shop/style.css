@@ -1,0 +1,70 @@
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width:30%;
+    margin-right: 10px;
+    font-size: 16px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #20b8ef;
+    outline: none;
+    box-shadow: 0px 4px 8px rgba(76, 175, 80, 0.4);
+}
+button {
+    padding: 10px 20px;
+    background-color: #8fbf51;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #45a049;
+    box-shadow: 0px 4px 8px rgba(76, 175, 80, 0.4);
+}
+
+.book-title {
+    border: 1px solid #4CAF50;
+    padding:10px; /* Reduced padding for a slimmer appearance */
+    margin: 5px 0;
+    cursor: pointer;
+    max-width: 750px; /* Limit the width of the title container */
+    
+    
+    transition: all 0.3s ease;
+  }
+  
+  .book-title:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Position the book info at the top-right corner */
+  .book-info-container {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    border: 2px solid #4CAF50;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+  
+  .container {
+    padding: 20px;
+  }
